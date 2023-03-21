@@ -2,7 +2,6 @@ const filas = 11;
 let numero = parseInt(prompt("Ingrese un numero"));
 
 document.write('<table><tbody>')
-//dibuja las filas
 for (let multiplicando = 1; multiplicando < filas; multiplicando++) {
     let resultado = numero * multiplicando;
     document.write('<tr>')
